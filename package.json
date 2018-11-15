@@ -2,7 +2,6 @@
   "name": "testlib",
   "version": "0.1.0",
   "private": true,
-  "main": "dist/testlib.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,7 +9,8 @@
     "bundle": "vue-cli-service build --target lib --name testlib src/index.js"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vuetify": "^1.3.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.1",
@@ -23,7 +23,9 @@
     "lint-staged": "^7.2.2",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.5.17"
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-template-compiler": "^2.5.17",
+    "vuetify-loader": "^1.0.5"
   },
   "eslintConfig": {
     "root": true,
@@ -61,5 +63,6 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "main": "dist/testlib.common.js"
 }
