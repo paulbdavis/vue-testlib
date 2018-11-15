@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h1>Hello.</h1>
-        <p>{{ message }}</p>
+        <p>Hello. {{ message }}</p>
     </div>
 </template>
 

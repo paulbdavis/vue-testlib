@@ -1,3 +1,4 @@
 import Thing from './Thing'
+import UIThing from './UIThing'
 
-export { Thing }
+export { Thing, UIThing }
