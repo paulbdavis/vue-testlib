@@ -1,4 +1,6 @@
 import Thing from './Thing'
 import UIThing from './UIThing'
+import UIRender from './UIRender'
+import UIToolbar from './Toolbar'
 
-export { Thing, UIThing }
+export { Thing, UIThing, UIRender, UIToolbar }
