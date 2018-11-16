@@ -1,6 +1,8 @@
 <template>
     <v-toolbar app fixed>
-        <v-toolbar-side-icon @click.stop="clicked"></v-toolbar-side-icon>
+        <v-toolbar-items>
+            <v-btn>Foo</v-btn>
+        </v-toolbar-items>
         <v-toolbar-title>Toolbar</v-toolbar-title>
     </v-toolbar>
 </template>
