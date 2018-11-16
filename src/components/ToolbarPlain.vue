@@ -1,8 +1,6 @@
 <template>
     <v-toolbar app fixed>
-        <v-toolbar-items>
-            <v-btn>Foo</v-btn>
-        </v-toolbar-items>
+        <v-toolbar-side-icon></v-toolbar-side-icon>
         <v-toolbar-title>Toolbar</v-toolbar-title>
     </v-toolbar>
 </template>
