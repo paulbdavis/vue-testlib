@@ -1,4 +1,4 @@
-import { Thing, UIThing, UIRender, UIToolbar } from './components'
+import { Thing, UIThing, UIRender, UIToolbar, UIToolbarPlain } from './components'
 
 export * from './components'
 
@@ -8,5 +8,6 @@ export default {
     Vue.component('LibUiThing', UIThing)
     Vue.component('LibUiRender', UIRender)
     Vue.component('LibUiToolbar', UIToolbar)
+    Vue.component('LibUiToolbarPlain', UIToolbarPlain)
   }
 }
